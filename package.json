@@ -5,10 +5,7 @@
 "scripts": {
   "dev": "next dev",
   "build": "next build",
-  "start": "next start",
-  "pages:build": "pnpx @cloudflare/next-on-pages",
-  "preview": "pnpm run pages:build && wrangler pages dev",
-  "deploy": "pnpm run pages:build && wrangler pages deploy"
+  "start": "next start"
 },
   "dependencies": {
     "@emotion/is-prop-valid": "latest",

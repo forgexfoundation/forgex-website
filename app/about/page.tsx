@@ -17,6 +17,8 @@ import {
   Wrench,
   Github,
   Twitter,
+  Linkedin,
+  Rss,
 } from "lucide-react"
 import Link from "next/link"
 
@@ -28,15 +30,18 @@ const teamMembers: TeamMember[] = [
     role: "Founder",
     avatar: "https://pbs.twimg.com/profile_images/1929128644397400064/LINuv5IJ_400x400.jpg",
     github: "https://github.com/xanmoy",
+    linkedin: "https://www.linkedin.com/in/xanmoy/",
     twitter: "https://twitter.com/xanmoy",
+    website: "https://xanmoy.in",
     initials: "TG",
   },
   {
     name: "Bhavini Lakhotia",
     username: "bhavini-lakhotia",
-    role: "Founding team member",
+    role: "Public Relations Lead",
     avatar: "/team/bhavini-lakhotia.png",
     github: "https://github.com/bhavini-lakhotia",
+    linkedin: "https://www.linkedin.com/in/bhavini-lakhotia/",
     initials: "BL",
   },
   {
@@ -54,15 +59,28 @@ const teamMembers: TeamMember[] = [
     avatar: "https://pbs.twimg.com/profile_images/1573771449957228544/2S80vZdh_400x400.jpg",
     github: "https://github.com/XronTrix10",
     twitter: "https://x.com/XronTrix10",
+    linkedin: "https://www.linkedin.com/in/sreejan-naru-472195237/",
+    website: "https://xrontrix.me/",
     initials: "SN",
   },
   {
     name: "Debobrata Pal",
     username: "Dev-Destructor",
-    role: "Founding team member",
+    role: "Senior DevOps Engineer & Technical Advisor",
     avatar: "https://pbs.twimg.com/profile_images/1477713528337289217/eR6I9RKh_400x400.jpg",
     github: "https://github.com/Dev-Destructor",
+    linkedin: "https://www.linkedin.com/in/debobrata-pal-a50634211/",
     twitter: "https://x.com/Dev_Destructor",
+    initials: "DP",
+  },
+  {
+    name: "Anushwa Bhattacharya",
+    username: "Anushwa2003",
+    role: "Strategic Alliances Lead",
+    avatar: "https://pbs.twimg.com/profile_images/1789214015412965376/yONqHHOh_400x400.png",
+    github: "https://github.com/Dev-Destructor",
+    linkedin: "https://www.linkedin.com/in/anushwa2003/",
+    twitter: "https://x.com/AnushwaBhatt",
     initials: "DP",
   },
 ]
@@ -225,7 +243,7 @@ export default function AboutPage() {
             </div>
           </motion.section>
 
-          {/* Meet the Team Section */}
+          
           {/* Meet the Team Section */}
           <motion.section
             initial={{ opacity: 0, y: 20 }}
@@ -269,6 +287,22 @@ export default function AboutPage() {
                             </Link>
                           </Button>
                         )}
+                        {member.linkedin && (
+                          <Button asChild variant="outline" size="sm">
+                            <Link href={member.linkedin} target="_blank">
+                              <Linkedin className="h-4 w-4" />
+                            </Link>
+                          </Button>
+                        )}
+                        {member.website && (
+                          <Button asChild variant="outline" size="sm">
+                            <Link href={member.website} target="_blank">
+                              <Rss className="h-4 w-4" />
+                              
+                            </Link>
+                          </Button>
+                        )}
+
                       </div>
                     </CardContent>
                   </Card>

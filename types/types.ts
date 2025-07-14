@@ -6,5 +6,7 @@ export interface TeamMember {
     avatar: string
     github?: string
     twitter?: string
+    linkedin?: string
+    website?: string
     initials: string
 }

@@ -59,6 +59,7 @@ export default function ContributePage() {
                   action: "Start Coding",
                   color: "text-blue-500",
                   skills: ["JavaScript", "TypeScript", "Electron", "React"],
+                  href: "https://github.com/forgexfoundation/.github/blob/main/CONTRIBUTING.md"
                 },
                 {
                   icon: FileText,
@@ -67,6 +68,7 @@ export default function ContributePage() {
                   action: "Improve Docs",
                   color: "text-green-500",
                   skills: ["Technical Writing", "Markdown", "Examples"],
+                  href: "https://github.com/forgexfoundation/.github"
                 },
                 {
                   icon: FlaskConical,
@@ -75,6 +77,7 @@ export default function ContributePage() {
                   action: "Start Testing",
                   color: "text-purple-500",
                   skills: ["Manual Testing", "Bug Reports", "QA"],
+                  href: "https://github.com/forgexfoundation/.github"
                 },
                 {
                   icon: Palette,
@@ -83,6 +86,7 @@ export default function ContributePage() {
                   action: "Design with Us",
                   color: "text-pink-500",
                   skills: ["UI Design", "UX Research", "Figma", "Icons"],
+                  href: "https://github.com/forgexfoundation/.github"
                 },
                 {
                   icon: MessageSquare,
@@ -91,6 +95,7 @@ export default function ContributePage() {
                   action: "Join Discussions",
                   color: "text-orange-500",
                   skills: ["Communication", "Problem Solving", "Mentoring"],
+                  href: "https://github.com/forgexfoundation/"
                 },
                 {
                   icon: Lightbulb,
@@ -99,6 +104,7 @@ export default function ContributePage() {
                   action: "Share Ideas",
                   color: "text-yellow-500",
                   skills: ["Product Thinking", "User Research", "Feedback"],
+                  href: "https://github/forgexfoundation"
                 },
               ].map((way, index) => (
                 <motion.div
@@ -122,9 +128,15 @@ export default function ContributePage() {
                           </Badge>
                         ))}
                       </div>
-                      <Button variant="outline" className="w-full bg-transparent">
+                      <a
+                        href={way.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 px-4 py-2 text-white bg-primary/10 rounded-md hover:bg-primary/20 transition"
+                      >
                         {way.action}
-                      </Button>
+                      </a>
+
                     </CardContent>
                   </Card>
                 </motion.div>
@@ -206,7 +218,7 @@ export default function ContributePage() {
 
             <div className="mt-8 text-center">
               <Button asChild size="lg">
-                <Link href="https://github.com/forgex-foundation/community/blob/main/CONTRIBUTING.md" target="_blank">
+                <Link href="https://github.com/forgexfoundation/.github/blob/main/CONTRIBUTING.md" target="_blank">
                   <BookOpen className="mr-2 h-5 w-5" />
                   Read Full Contributing Guide
                   <ExternalLink className="ml-2 h-4 w-4" />
@@ -327,7 +339,7 @@ export default function ContributePage() {
                     size="lg"
                     className="text-base px-6 sm:px-8 font-semibold"
                   >
-                    <Link href="https://github.com/forgex-foundation" target="_blank">
+                    <Link href="https://github.com/forgexfoundation" target="_blank">
                       <Github className="mr-2 h-5 w-5" />
                       View Organization
                     </Link>
@@ -340,7 +352,7 @@ export default function ContributePage() {
                     className="text-base px-6 sm:px-8 font-semibold"
                   >
                     <Link
-                      href="https://github.com/forgex-foundation/whatsup"
+                      href="https://github.com/forgexfoundation"
                       target="_blank"
                     >
                       <Heart className="mr-2 h-5 w-5 text-primary" />

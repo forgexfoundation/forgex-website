@@ -244,14 +244,14 @@ export default function AboutPage() {
           </motion.section>
 
           
-          {/* Meet the Team Section */}
+          {/* Meet the Founding Team Section */}
           <motion.section
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl font-bold text-center mb-12">Meet the Team</h2>
+            <h2 className="text-3xl font-bold text-center mb-12">Meet the Founding Team</h2>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
               {teamMembers.map((member, index) => (
                 <motion.div

@@ -27,7 +27,7 @@ const teamMembers: TeamMember[] = [
   {
     name: "Tanmoy Ganguly",
     username: "xanmoy",
-    role: "Founder",
+    role: "Founder & Core Developer",
     avatar: "https://pbs.twimg.com/profile_images/1929128644397400064/LINuv5IJ_400x400.jpg",
     github: "https://github.com/xanmoy",
     linkedin: "https://www.linkedin.com/in/xanmoy/",
@@ -47,7 +47,7 @@ const teamMembers: TeamMember[] = [
   {
     name: "Arya Bose",
     username: "NeilDogii",
-    role: "Founding team member",
+    role: "Core Developer",
     avatar: "/team/NeilDogii.png",
     github: "https://github.com/NeilDogii",
     initials: "AB",
@@ -55,7 +55,7 @@ const teamMembers: TeamMember[] = [
   {
     name: "Sreejan Naru",
     username: "XronTrix10",
-    role: "Founding team member",
+    role: "Core Developer",
     avatar: "https://pbs.twimg.com/profile_images/1573771449957228544/2S80vZdh_400x400.jpg",
     github: "https://github.com/XronTrix10",
     twitter: "https://x.com/XronTrix10",
@@ -66,7 +66,7 @@ const teamMembers: TeamMember[] = [
   {
     name: "Debobrata Pal",
     username: "Dev-Destructor",
-    role: "Senior DevOps Engineer & Technical Advisor",
+    role: "Core Developer",
     avatar: "https://pbs.twimg.com/profile_images/1477713528337289217/eR6I9RKh_400x400.jpg",
     github: "https://github.com/Dev-Destructor",
     linkedin: "https://www.linkedin.com/in/debobrata-pal-a50634211/",

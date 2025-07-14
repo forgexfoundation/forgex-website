@@ -112,7 +112,7 @@ export default function ContactPage() {
                 </CardHeader>
                 <CardContent>
                   <Button asChild variant="outline" className="w-full bg-transparent font-medium">
-                    <Link href="https://github.com/forgex-foundation/community/discussions" target="_blank">
+                    <Link href="https://github.com/forgexfoundation/community/discussions" target="_blank">
                       Join Discussions
                     </Link>
                   </Button>
@@ -139,8 +139,8 @@ export default function ContactPage() {
                 </CardHeader>
                 <CardContent>
                   <Button asChild variant="outline" className="w-full bg-transparent font-medium">
-                    <Link href="https://github.com/forgex-foundation" target="_blank">
-                      @forgex-foundation
+                    <Link href="https://github.com/forgexfoundation" target="_blank">
+                      @forgexfoundation
                     </Link>
                   </Button>
                   <div className="flex items-center gap-2 mt-4 text-sm text-muted-foreground">
@@ -318,7 +318,7 @@ export default function ContactPage() {
                     Star our repos, contribute code, and report issues
                   </p>
                   <Button asChild variant="outline" size="sm">
-                    <Link href="https://github.com/forgex-foundation" target="_blank">
+                    <Link href="https://github.com/forgexfoundation" target="_blank">
                       Follow Us
                     </Link>
                   </Button>
@@ -331,7 +331,7 @@ export default function ContactPage() {
                   <h4 className="font-heading font-semibold mb-2">Discussions</h4>
                   <p className="text-sm text-muted-foreground mb-4">Ask questions and share ideas with the community</p>
                   <Button asChild variant="outline" size="sm">
-                    <Link href="https://github.com/forgex-foundation/community/discussions" target="_blank">
+                    <Link href="https://github.com/forgexfoundation/community/discussions" target="_blank">
                       Join Chat
                     </Link>
                   </Button>

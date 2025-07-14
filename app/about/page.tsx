@@ -32,13 +32,12 @@ const teamMembers: TeamMember[] = [
     initials: "TG",
   },
   {
-    name: "Sayan Biswas",
-    username: "Dank-del",
+    name: "Bhavini Lakhotia",
+    username: "bhavini-lakhotia",
     role: "Founding team member",
-    avatar: "https://pbs.twimg.com/profile_images/1870358405426122752/WqlRBkzc_400x400.jpg",
-    github: "https://github.com/Dank-del",
-    twitter: "https://x.com/TheDankDel",
-    initials: "SB",
+    avatar: "/team/bhavini-lakhotia.png",
+    github: "https://github.com/bhavini-lakhotia",
+    initials: "BL",
   },
   {
     name: "Arya Bose",
@@ -46,7 +45,6 @@ const teamMembers: TeamMember[] = [
     role: "Founding team member",
     avatar: "/team/NeilDogii.png",
     github: "https://github.com/NeilDogii",
-    twitter: "#",
     initials: "AB",
   },
   {
@@ -57,6 +55,15 @@ const teamMembers: TeamMember[] = [
     github: "https://github.com/XronTrix10",
     twitter: "https://x.com/XronTrix10",
     initials: "SN",
+  },
+  {
+    name: "Debobrata Pal",
+    username: "Dev-Destructor",
+    role: "Founding team member",
+    avatar: "https://pbs.twimg.com/profile_images/1477713528337289217/eR6I9RKh_400x400.jpg",
+    github: "https://github.com/Dev-Destructor",
+    twitter: "https://x.com/Dev_Destructor",
+    initials: "DP",
   },
 ]
 

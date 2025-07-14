@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Github, Mail } from "lucide-react";
+import { Github, Mail, Twitter, Linkedin, Instagram } from "lucide-react";
 import Image from "next/image";
 
 export function Footer() {
@@ -49,7 +49,7 @@ export function Footer() {
                 Contribute
               </Link>
               <Link
-                href="https://github.com/forgex-foundation"
+                href="https://github.com/forgexfoundation"
                 target="_blank"
                 className="block text-base text-muted-foreground hover:text-primary transition-colors"
               >
@@ -66,12 +66,36 @@ export function Footer() {
             <h3 className="font-semibold text-lg">Connect</h3>
             <div className="flex space-x-5">
               <Link
-                href="https://github.com/forgex-foundation"
+                href="https://github.com/forgexfoundation"
                 target="_blank"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
                 <Github className="h-6 w-6" />
                 <span className="sr-only">GitHub</span>
+              </Link>
+              <Link
+                href="https://x.com/forgexorg"
+                target="_blank"
+                className="text-muted-foreground hover:text-primary transition-colors"
+              >
+                <Twitter className="h-6 w-6" />
+                <span className="sr-only">Twitter</span>
+              </Link>
+              <Link
+                href="https://www.linkedin.com/company/forgexfoundation"
+                target="_blank"
+                className="text-muted-foreground hover:text-primary transition-colors"
+              >
+                <Linkedin className="h-6 w-6" />
+                <span className="sr-only">LinkedIn</span>
+              </Link>
+                <Link
+                href="https://www.instagram.com/forgexfoundation"
+                target="_blank"
+                className="text-muted-foreground hover:text-primary transition-colors"
+              >
+                <Instagram className="h-6 w-6" />
+                <span className="sr-only">Instagram</span>
               </Link>
               <Link
                 href="mailto:forgexfoundation@gmail.com"

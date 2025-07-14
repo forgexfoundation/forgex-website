@@ -78,7 +78,7 @@ const teamMembers: TeamMember[] = [
     username: "Anushwa2003",
     role: "Strategic Alliances Lead",
     avatar: "https://pbs.twimg.com/profile_images/1789214015412965376/yONqHHOh_400x400.png",
-    github: "https://github.com/Dev-Destructor",
+    github: "https://github.com/Anushwa2003",
     linkedin: "https://www.linkedin.com/in/anushwa2003/",
     twitter: "https://x.com/AnushwaBhatt",
     initials: "DP",

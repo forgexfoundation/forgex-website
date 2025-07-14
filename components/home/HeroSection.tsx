@@ -51,26 +51,25 @@ export function HeroSection() {
         </div>
       </div>
 
-          {/* STATS SECTION */}
-          <div className="px-6 sm:px-10 lg:px-24 py-16 lg:pt-28">
-             
+      {/* STATS SECTION */}
+      <div className="px-6 sm:px-10 lg:px-24 py-16 lg:pt-28">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-x-6 gap-y-12 text-center">
+          {[
+            { title: "23,411+", subtitle: "software downloads" },
+            { title: "20+", subtitle: "open source projects" },
+            { title: "500+", subtitle: "contributing developers" },
+            { title: "20k", subtitle: "lines of code weekly" },
+            { title: "10+", subtitle: "contributing orgs" },
+            { title: "50+", subtitle: "upcoming events" },
+          ].map(({ title, subtitle }, idx) => (
+            <div key={idx} className="space-y-2">
+              <p className="text-3xl font-extrabold">{title}</p>
+              <p className="text-base text-blue-600 leading-snug">{subtitle}</p>
+            </div>
+          ))}
+        </div>
+      </div>
 
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-x-6 gap-y-12 text-center">
-                  {[
-                      { title: "100+", subtitle: "open source projects" },
-                      { title: "70+", subtitle: "developers trained" },
-                      { title: "500+", subtitle: "contributing developers" },
-                      { title: "5M", subtitle: "lines of code weekly" },
-                      { title: "10+", subtitle: "contributing orgs" },
-                      { title: "50+", subtitle: "upcoming events" },
-                  ].map(({ title, subtitle }, idx) => (
-                      <div key={idx} className="space-y-2">
-                          <p className="text-3xl font-extrabold">{title}</p>
-                          <p className="text-base text-blue-600 leading-snug">{subtitle}</p>
-                      </div>
-                  ))}
-              </div>
-          </div>
 
     </section>
   );

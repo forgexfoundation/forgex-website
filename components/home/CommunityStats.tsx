@@ -3,7 +3,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { motion } from "framer-motion";
-import { Users, Star, GitFork, Eye } from "lucide-react";
+import { Users, Star, GitFork, Eye, Download } from "lucide-react"; // 👈 Added Download icon
 
 export function CommunityStats() {
   return (
@@ -25,7 +25,7 @@ export function CommunityStats() {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-4 gap-8 mb-12">
+        <div className="grid md:grid-cols-5 gap-8 mb-12"> {/* 👈 Now 5 columns */}
           {[
             {
               icon: Star,
@@ -50,6 +50,12 @@ export function CommunityStats() {
               label: "Watchers",
               value: "180+",
               color: "text-purple-500",
+            },
+            {
+              icon: Download, 
+              label: "Downloads",
+              value: "23,411+",
+              color: "text-teal-500",
             },
           ].map((stat, index) => (
             <motion.div

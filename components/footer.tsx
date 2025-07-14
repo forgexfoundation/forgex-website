@@ -32,6 +32,9 @@ export function Footer() {
               <Link href="/about" className="block text-base text-muted-foreground hover:text-primary transition-colors">
                 About
               </Link>
+              <Link href="/docs" className="block text-base text-muted-foreground hover:text-primary transition-colors">
+                Documentation
+              </Link>
               <Link href="/projects" className="block text-base text-muted-foreground hover:text-primary transition-colors">
                 Projects
               </Link>
@@ -55,6 +58,7 @@ export function Footer() {
               >
                 GitHub
               </Link>
+
               <Link href="/contact" className="block text-base text-muted-foreground hover:text-primary transition-colors">
                 Contact
               </Link>

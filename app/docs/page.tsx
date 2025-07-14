@@ -11,34 +11,34 @@ import {
 
 const docs = [
   {
-    title: "📘 .github Documentation Guide",
+    title: ".github Documentation Guide",
     description:
       "Overview of community health files and their purpose in ForgeX.",
     href: "https://github.com/ForgeXFoundation/.github/blob/main/README.md",
     icon: BookOpen,
   },
   {
-    title: "🤝 Contribution Guidelines",
+    title: "Contribution Guidelines",
     description:
       "Learn how to contribute effectively to ForgeX Foundation projects.",
     href: "https://github.com/ForgeXFoundation/.github/blob/main/CONTRIBUTING.md",
     icon: GitBranch,
   },
   {
-    title: "🛡️ Code of Conduct",
+    title: "Code of Conduct",
     description:
       "Expected behavior for all contributors across the ForgeX community.",
     href: "https://github.com/ForgeXFoundation/.github/blob/main/CODE_OF_CONDUCT.md",
     icon: ShieldAlert,
   },
   {
-    title: "🔐 Security Policy",
+    title: "Security Policy",
     description: "Report vulnerabilities responsibly and securely.",
     href: "https://github.com/ForgeXFoundation/.github/blob/main/SECURITY.md",
     icon: FileWarning,
   },
   {
-    title: "📝 Issue & PR Templates",
+    title: "ssue & PR Templates",
     description:
       "Standard templates for submitting bug reports, features, and pull requests.",
     href: "https://github.com/ForgeXFoundation/.github/tree/main/issue_template",
@@ -56,7 +56,7 @@ export default function DocsPage() {
         className="text-center mb-14"
       >
         <h1 className="font-heading text-4xl md:text-5xl font-bold mb-4 text-balance">
-          📚 ForgeX Documentation
+          ForgeX Documentation
         </h1>
         <p className="text-lg md:text-xl text-muted-foreground mx-auto max-w-2xl text-balance">
           Explore the guidelines, templates, and policies that help ForgeX

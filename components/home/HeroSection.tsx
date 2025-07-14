@@ -17,7 +17,7 @@ export function HeroSection() {
             transition={{ duration: 0.6 }}
             className="text-4xl md:text-6xl font-bold leading-tight text-left mb-6"
           >
-            Decentralized Innovation. <br /> Built on Trust.
+            Empowering developers through open collaboration.
           </motion.h1>
 
           <p className="text-muted-foreground text-lg md:text-xl mb-8 text-left max-w-xl">

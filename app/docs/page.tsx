@@ -38,7 +38,7 @@ const docs = [
     icon: FileWarning,
   },
   {
-    title: "ssue & PR Templates",
+    title: "Issue & PR Templates",
     description:
       "Standard templates for submitting bug reports, features, and pull requests.",
     href: "https://github.com/ForgeXFoundation/.github/tree/main/issue_template",

@@ -38,7 +38,7 @@ export function HeroSection() {
         <div className="relative w-full h-[350px] sm:h-[400px] md:h-[450px]">
           {/* Main Image */}
           <Image
-            src="/cover-image.jpg"
+            src="https://res.cloudinary.com/dbc0jsqd9/image/upload/v1752616148/cover-image_ezgh7d.jpg"
             alt="ForgeX Community"
             fill
             className="object-cover rounded-lg"

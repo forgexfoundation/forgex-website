@@ -331,7 +331,7 @@ export default function ContactPage() {
                   <h4 className="font-heading font-semibold mb-2">Discussions</h4>
                   <p className="text-sm text-muted-foreground mb-4">Ask questions and share ideas with the community</p>
                   <Button asChild variant="outline" size="sm">
-                    <Link href="https://github.com/forgexfoundation" target="_blank">
+                    <Link href="https://discord.gg/VwxdQxEqcw" target="_blank">
                       Join Chat
                     </Link>
                   </Button>

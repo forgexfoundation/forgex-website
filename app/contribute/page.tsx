@@ -77,7 +77,7 @@ export default function ContributePage() {
                   action: "Start Testing",
                   color: "text-purple-500",
                   skills: ["Manual Testing", "Bug Reports", "QA"],
-                  href: "https://github.com/forgexfoundation/.github"
+                  href: "https://discord.gg/fRypesE5Hp"
                 },
                 {
                   icon: Palette,
@@ -86,7 +86,7 @@ export default function ContributePage() {
                   action: "Design with Us",
                   color: "text-pink-500",
                   skills: ["UI Design", "UX Research", "Figma", "Icons"],
-                  href: "https://github.com/forgexfoundation/.github"
+                  href: "https://discord.gg/C7FTr5vyE7"
                 },
                 {
                   icon: MessageSquare,
@@ -95,7 +95,7 @@ export default function ContributePage() {
                   action: "Join Discussions",
                   color: "text-orange-500",
                   skills: ["Communication", "Problem Solving", "Mentoring"],
-                  href: "https://github.com/forgexfoundation/"
+                  href: "https://discord.gg/7Wcr5pJXZD"
                 },
                 {
                   icon: Lightbulb,
@@ -104,7 +104,7 @@ export default function ContributePage() {
                   action: "Share Ideas",
                   color: "text-yellow-500",
                   skills: ["Product Thinking", "User Research", "Feedback"],
-                  href: "https://github/forgexfoundation"
+                  href: "https://discord.gg/G6HHJqkUpQ"
                 },
               ].map((way, index) => (
                 <motion.div

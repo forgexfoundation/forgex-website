@@ -38,9 +38,10 @@ export function Footer() {
               <Link href="/projects" className="block text-base text-muted-foreground hover:text-primary transition-colors">
                 Projects
               </Link>
-              <Link href="/blog" className="block text-base text-muted-foreground hover:text-primary transition-colors">
-                Blog
+              <Link href="/events" className="block text-base text-muted-foreground hover:text-primary transition-colors">
+                Events
               </Link>
+
             </div>
           </div>
 
@@ -57,6 +58,9 @@ export function Footer() {
                 className="block text-base text-muted-foreground hover:text-primary transition-colors"
               >
                 GitHub
+              </Link>
+              <Link href="https://discord.gg/VwxdQxEqcw" className="block text-base text-muted-foreground hover:text-primary transition-colors">
+                Discord
               </Link>
 
               <Link href="/contact" className="block text-base text-muted-foreground hover:text-primary transition-colors">
@@ -101,6 +105,24 @@ export function Footer() {
                 <Instagram className="h-6 w-6" />
                 <span className="sr-only">Instagram</span>
               </Link>
+              <Link 
+                href="https://discord.gg/VwxdQxEqcw"
+                target="_blank"
+                className="text-muted-foreground hover:text-primary transition-colors"
+              >
+                <Image
+                  src="/discord.svg"
+                  alt="Discord"
+                  width={24}
+                  height={24}
+                  className="h-6 w-6 hover:text-primary transition-colors"
+                />
+                <span className="sr-only">Discord</span>
+               
+                
+                
+              </Link>
+            
               <Link
                 href="mailto:forgexfoundation@gmail.com"
                 className="text-muted-foreground hover:text-primary transition-colors"

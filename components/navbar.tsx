@@ -59,7 +59,17 @@ export function Navbar() {
 
         {/* Right Side Controls */}
         <div className="flex items-center space-x-2">
+          {/* Theme Switcher */}
           <ThemeToggle />
+
+          {/* Join Us Button (visible on desktop) */}
+          <div className="hidden md:block">
+            <Link href="/join">
+              <Button size="sm" className="rounded-lg text-white">
+                Join Us
+              </Button>
+            </Link>
+          </div>
 
           {/* Mobile Navigation */}
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
@@ -86,6 +96,10 @@ export function Navbar() {
                     {item.name}
                   </Link>
                 ))}
+                {/* Join Us Button in mobile nav */}
+                <Link href="/join" onClick={() => setIsOpen(false)}>
+                  <Button className="w-full mt-4 text-white rounded-lg">Join Us</Button>
+                </Link>
               </nav>
             </SheetContent>
           </Sheet>
